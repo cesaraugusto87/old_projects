@@ -1,0 +1,1 @@
+idiomas=<a href ='ingles/index.html'><font color='#FF0080'>//</font> English version</a>

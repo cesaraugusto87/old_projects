@@ -1,0 +1,463 @@
+.derechosreservados {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+}
+
+.tituloTabla {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px; 
+	
+	
+}
+
+.etiquetaN {
+	font-size: 11px;
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.negrita12 {
+	font-size: 12px;
+	color:#000000;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.etiquetaB {
+	font-size: 11px;
+	color:#FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.campo {
+	font-size: 11px;
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.campoCenter {
+	font-size: 11px;
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+.campoRight {
+	font-size: 11px;
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:right;
+}
+.campoLetf {
+	font-size: 11px;
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:left;
+	}
+.campoR {
+	font-size: 11px;
+	color: #FF0000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.campoB {
+	font-size: 11px;
+	color:#000000;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.combo {
+	font-size: 9px;
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.msgError {
+	font-size: 11px;
+	color:#FF0000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.titulo1 {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	line-height: 14px;
+	text-transform: capitalize;
+	color: #000066;
+}
+.titulo2 {
+	color: #660000;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;}
+.titulo3 {
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}	
+
+
+.tituloprincipal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #ADD8E6;
+	color:blue;
+	font-style: normal;
+	font-variant: normal;
+	letter-spacing: normal;
+	text-align: center;
+	text-decoration: underline;
+	white-space: normal;
+}
+
+.vinculo {
+	color: #00CC00; 
+	font-size: 11px; 
+	font-family: Arial, Helvetica, sans-serif;
+	cursor:hand; cursor: pointer; }
+.cabecera {
+	color: #CC3333;
+	font-family:Arial, Helvetica, sans-serif;
+ 	font-weight: bold;
+  	font-size:9px; }
+  	
+.pulsar {
+	padding: 3px 10px;
+	font-family: arial;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration:none;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	cursor:hand; cursor: pointer;
+
+	}
+	
+.pulsar:hover {
+	background:#666666;
+	color:#FFFFFF;
+	padding: 3px 10px;
+	font-family: arial;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration:none;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	cursor:hand; cursor: pointer;
+
+	}
+	
+.pulsar2 {
+	padding: 3px 10px;
+	font-family: arial;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration:none;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	background: #CCCCCC;
+	cursor:hand; cursor: pointer;
+	margin-left:10px;
+	
+
+	}
+.pulsar2:hover {
+	background:#666666;
+	color:#FFFFFF;
+	padding: 3px 10px;
+	font-family: arial;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration:none;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	cursor:hand; cursor: pointer;
+	margin-left:10px;
+	
+
+	}
+.botonTop{
+	background:  url(../../CAESYSTEM/images/toptitle.png) no-repeat;
+	position: relative;
+ 	color:#FFFFFF;
+	cursor:default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 3px 20px;
+	border-bottom: 1px solid #ddd;
+	
+}
+.botonMas{
+	background: url(../../CAESYSTEM/images/bottomMas.png) no-repeat;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+}
+
+.botonMas:hover {
+	background: url(../../CAESYSTEM/images/bottomMas_over.png) no-repeat;
+
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+	
+}
+.botonMas_hover {
+	background: url(../../CAESYSTEM/images/bottomMas_over.png) no-repeat;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+	
+}
+
+.boton{
+	background: url(../../CAESYSTEM/images/bottom.png) no-repeat;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+}
+
+.boton_hover{
+	background: url(../../CAESYSTEM/images/bottom_over.png) no-repeat;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+}
+.boton:hover{
+	background: url(../../CAESYSTEM/images/bottom_over.png) no-repeat;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+}
+.botonMenos{
+	background: url(../../CAESYSTEM/images/bottomMenos.png) no-repeat;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+}
+.botonMenos:hover{
+	background: url(../../CAESYSTEM/images/bottomMenos_over.png) no-repeat;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+}
+.botonMenos_hover{
+	background: url(../../CAESYSTEM/images/bottomMenos_over.png) no-repeat;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+}
+.boton2{
+	background: #CC0000;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+}
+
+.boton2Mas{
+	background: url(../../CAESYSTEM/images/bottom2Mas.png) no-repeat;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+}
+.boton2Mas:hover{
+	background: url(../../CAESYSTEM/images/bottom2Mas_over.png) no-repeat;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+}
+.boton2Mas_hover{
+	background: url(../../CAESYSTEM/images/bottom2Mas_over.png) no-repeat;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+}
+.boton2Menos{
+	background: url(../../CAESYSTEM/images/bottom2Menos.png) no-repeat;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+}
+.boton2Menos:hover{
+	background: url(../../CAESYSTEM/images/bottom2Menos_over.png) no-repeat;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+}
+.boton2Menos_hover{
+	background: url(../../CAESYSTEM/images/bottom2Menos_over.png) no-repeat;
+	color:#FFFFFF;
+	cursor: default;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	padding: 5px 25px;
+	border-bottom: 1px solid #ddd;
+	
+}
+
+.fondoFila{
+	background: url(../../CAESYSTEM/images/franja.png) no-repeat;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	
+	
+}
+.bordeTabla{
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border: 0;
+	
+}
+.notas1{
+font-size:9px;
+ font-weight:bold
+ }
+
+.Estilo1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#menu_lateral2
+{ 
+	padding : 3px 11px ;  
+} 
+A.menu_lateral2:link,A.menu_lateral2:visited
+{
+	font-family:arial,verdana;font-size: 11px;
+	color:#2567EC;
+	text-decoration: none;
+}
+A.menu_lateral2:hover 
+{
+	font-size: 11px;
+	background: transparent;
+}
+
+
+#ReportDetails {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 14px;
+	margin-right: 10px;
+	font-weight: lighter;
+	margin-bottom: 10px;
+	background-color: #3399FF;
+}
+      #ReportDetails td, th { font-size: 80%; margin-left: 2px; margin-right: 2px; }
+      #ReportDetails th { border-bottom-color: #777777; border-bottom-style: solid; border-bottom-width: 2px; }
+ .ReportDetailsOddDataRow { background-color: #dddddd; }
+ .ReportDetailsEvenDataRow { background-color: #eeeeee; }
+ 
+  .ReportTableHeaderCell { background-color: #dddddd; font-weight: bold; color: #000000; vertical-align: top; font-size: 80%; white-space: nowrap; }
+      .ReportTableValueCell {
+	vertical-align: top;
+	font-size: 80%;
+	white-space: nowrap;
+	text-align: center;
+}
+
+.Estilo2 {color: #0000FF}
+.Estilo3 {font-size: 14px}

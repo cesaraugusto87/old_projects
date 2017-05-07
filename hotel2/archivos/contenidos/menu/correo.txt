@@ -1,0 +1,1 @@
+text=Información general: <font color='#FF0080'>Diseño y Creacion: Susana Leon</font><br>Información de la obra: <font color='#FF0080'>sleon426@gmail.com</font><br>Telefono de contacto: <font color='#FF0080'>04249280630</font>

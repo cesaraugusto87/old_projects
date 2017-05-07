@@ -1,0 +1,291 @@
+#content
+{
+	padding-left:2px;
+	padding-right:10px;
+	margin:10px 12px;
+	
+}
+
+
+
+#tabsHolder
+{
+	margin-top:20px;
+	padding:2px;
+
+}
+
+#tabs
+{
+	margin:0;
+}
+
+#tabs a
+{
+	border:1px solid #000;
+	background-color:#FFF;
+	
+	color:#000;
+	font-weight:bold;
+	display:block;
+	padding:3px 10px;
+	float:left;
+	cursor:pointer;
+	margin-right:5px;
+	margin-bottom:0;
+	text-decoration:none;
+	border-bottom:none
+}
+
+#tabs a.on
+{
+	background:#000;
+	color:#FFF;
+}
+#tabsTarget
+{
+	border:1px solid #000;
+	padding-bottom:5px;
+	padding-top:20px;	
+	margin-top:0;
+	
+}
+
+form
+{
+	margin:0;
+}
+
+#tabsTarget fieldset
+{
+	margin:0;
+	border:none;
+
+}
+
+#tabsTarget label
+{
+	display:block;
+	float:left;
+	width:150px;
+	font-weight:bold;
+	padding-top:3px;
+	margin-right:5px;
+}
+
+#tabsTarget label.alignRight
+{
+	text-align:right;
+}
+
+#tabsTarget label.twoColumns
+{
+	width:100px;
+}
+
+#tabsTarget .holderSubmit
+{
+	margin-top:3px;
+	text-align:center;
+}
+
+#tabsTarget  br
+{
+	clear:both;
+}
+
+#tabsTarget input.inputText, textarea
+{
+	width:715px;
+	margin-bottom:5px;
+	
+}
+
+#tabsTarget input.inputMedium
+{
+	width:250px;
+	float:left;
+}
+
+#tabsTarget select
+{
+	float:left;
+	margin-right:10px;
+}
+
+#tabsTarget input.inputFecha
+{
+	width:100px;
+	float:left;
+}
+
+#tabsTarget input.btnCal
+{
+	float:left;
+}
+
+#resultados
+{
+	margin-top:30px;
+	margin-bottom:30px;	
+}
+
+#tbResultados
+{
+	width:100%;
+	margin:0 auto;
+	border:1px solid #000;
+}
+
+#tbResultados caption
+{
+	background:#000;
+	border:1px solid #000;	
+	border-bottom:0;
+	color:#FFF;
+	font-size:14px;
+	text-transform:uppercase;
+	font-family:"Arial Black";
+	padding:5px 10px;	
+}
+
+#tbResultados th
+{
+	text-align:center;
+	
+	padding:5px 10px;
+	color:#000;
+	background:#EEE;
+	font-weight:bold;
+	border-bottom:1px solid #000;		
+
+}
+
+#tbResultados td
+{
+	padding:5px 10px;
+	text-align:center;
+}
+
+#tbResultados tfoot
+{
+	clear:both;
+	text-align:center;
+}
+
+#tbResultados tfoot td
+{
+	background:#EEE;
+	padding:2px;
+}
+
+#tbResultados tfoot td a
+{
+	display:inline-block;
+	padding:2px;
+	color:#666;
+	text-decoration:none;
+}
+
+#tbResultados tfoot td a.on
+{
+	background:#666;
+	color:#FFF;
+}
+
+
+.detalle
+{
+	width:740px;
+	
+	
+}
+
+.detalle .numSolicitud
+{
+	text-align:right;
+	margin-right:5px;
+	font-weight:bold;
+	font-style:italic;
+}
+
+.detalle .titulo
+{
+	/*background: url(../imagenes/bg_tit_detalle.png) repeat-x;*/
+	background: #000;
+	
+	padding-top:4px;
+	height:19px;
+	text-align:center;
+	color:#FFF;
+	font-size:14px;
+	font-weight:bold;
+	border:1px solid #000;
+}
+
+.detalle .datos
+{
+	padding:2px 5px; 
+	background:#CCC;
+	border:1px solid #000;	
+}
+
+.detalle .contenido
+{
+	border:1px solid #000;
+	padding:10px 15px;
+	text-align:justify;
+}
+
+
+
+ul.mensajes
+{
+	margin: 5px auto;
+	background:#DDD;
+	color:#063;
+	width:600px;
+	padding:5px 25px;
+}
+
+ul.mensajes li
+{
+	margin:0;
+	margin-bottom:2px;
+	margin-top:2px;
+}
+
+#formLogin
+{
+	width: 400px;
+	margin:0 auto;
+	background: #FFF;
+	
+}
+
+#formLogin  fieldset
+{
+	border:2px solid #AAA;	
+	background: #EEE;
+	margin:10px;
+}
+
+#formLogin  fieldset legend
+{
+	font-weight:bold;
+	padding:0px;
+}
+
+#formLogin label
+{
+	display:block;
+	float:left;
+	width:130px;
+	padding-top:3px;
+}
+
+#formLogin .holderSubmit
+{
+	margin-top:10px;
+	text-align:center;
+}

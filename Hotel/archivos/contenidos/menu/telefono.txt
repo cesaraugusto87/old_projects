@@ -1,0 +1,1 @@
+text=Información de Contacto: <font color='#FF0080'>0424-928-06-30</font>

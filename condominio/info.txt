@@ -1,0 +1,71 @@
+## --------------------------------------------------------------------------------------
+## - Info
+## --------------------------------------------------------------------------------------
+
+>>> Pantallas
+
+	condominio/pantallas
+
+## --------------------------------------------------------------------------------------
+## - Instaladores
+## --------------------------------------------------------------------------------------
+
+>>> Servidor Web
+
+	.- Descargar
+		http://www.apachefriends.org/download.php?xampp-win32-1.7.4-VC6.7z
+
+	.- Instalar en
+
+		c:\
+
+	.- Pegar Carpeta Condominio en:
+
+		c:\xampp\htdocs
+
+
+>>> PostgreSQL
+
+	.- Descargar ()
+		http://www.postgresql.org/download/windows
+		
+	.- Utilizar como clave
+		agentes
+
+	.- Crear base de datos de nombre
+		condominio
+
+	.- Cargar Base de datos
+		condominio.backup
+
+
+>>> Ajuste de PostgreSQL en el Servidor Web
+
+	.- Abrir este archivo
+		
+		c:\xampp\php\php.ini
+
+	.- Buscar la siguiente linea
+
+		;extension=php_pgsql.dll
+
+	.- Quitar el punto y coma de la izquierda
+		
+		extension=php_pgsql.dll
+
+	.- Guardar los cambios en el archivo
+
+
+>>> Ejecutando el proyecto
+
+	.- Abrir el siguiente archivo
+
+		c:\xampp\xampp-control.exe
+
+	.- Encender el apache
+
+		start apache
+
+	.- Abrir un navegador Web (En Firefox) y poner la siguiente ruta
+
+		http://localhost/condominio

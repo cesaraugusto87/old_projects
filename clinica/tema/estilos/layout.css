@@ -1,0 +1,112 @@
+body 
+{
+	margin:0;
+	padding-left:0;
+	padding-right:5px;
+	padding-top:2px;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+
+#overall
+{
+	margin:10px auto;
+	width:788px;
+}
+
+#top
+{
+	height:22px;
+	
+	padding-top:14px;
+	padding-right:20px;
+	width:768px;
+	
+	background: url(../imagenes/bg_superior.png) no-repeat;
+}
+
+#top
+{
+
+	text-align:right;
+	color:#FFF;
+	font-weight:bold;
+	font-size:10px;
+}
+
+#top a
+{
+	color:#FFF;
+	font-weight:bold;
+}
+
+#top a:hover
+{
+	text-decoration:underline;
+}
+
+
+
+#main
+{
+	margin:0;
+	padding-bottom:30px;
+	background: url(../imagenes/bg_principal.png) repeat-y;
+}
+
+#bottom
+{
+	height:63px;
+	margin:0;	
+	background: url(../imagenes/bg_inferior.png) no-repeat;
+}
+
+#bottom_menu
+{
+	margin:0 auto;
+	padding-top:12px;
+	padding-bottom:5px;
+	width:770px;
+	border-bottom:1px solid #FFF;	
+}
+#bottom_menu a
+{
+	color:#FFF;
+	display:block;
+	float:left;
+	margin:0 10px;
+	font-weight:bold;
+	font-size:10px;
+	text-decoration:none;
+}
+#copyright
+{
+	text-align:right;
+	color:#000;
+	font-weight:bold;
+	font-size:10px;
+	margin-top:6px;
+	margin-right:15px;
+}
+
+#rec
+{
+	text-align:center;
+	color:#000;
+	font-weight:bold;
+	font-size:8px;
+	margin-top:6px;
+	margin-right:15px;
+}
+
+
+
+.clearit
+{
+	clear:both;
+	font-size:0;
+	height:0;
+	padding:0;
+	margin:0;
+}

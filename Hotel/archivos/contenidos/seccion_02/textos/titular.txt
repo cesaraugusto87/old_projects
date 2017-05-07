@@ -1,0 +1,1 @@
+text=>>> <font color='#FF0080'>E</font>l autor del web

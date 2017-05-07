@@ -1,0 +1,10 @@
+text=texto_01<br>El autor del web 01<br><br>
+<font color='#FF0080'>Bienvenidos a nuestra web</font><br>
+<br>Esta web está diseñada, programada y comercializada en su totalidad por B<font color='#FF0080'>R</font>
+C02 Servicios de Diseño y Programación Web Multimedia<br><br>Para acceder a nuestros servicios, nuestra dirección<br>
+en Internet es:<br><font color='#FF0080'><a href='http://www.brc02.com' target='http://www.brc02.com' >
+http://www.brc02.com</a></font><br><br>Para contactar con B<font color='#FF0080'>R</font>C02, nuestro correo electrónico es:<br><br>Información General<br><a href='mailto:info@miwebmultimedia.net'><font color='#FF0080'>información</font></a><br><br><br>
+
+<a href="sobre_flanim01.html" onClick="window.open('', 'ventana','width=480, directories=no, toolbar=no, menubar=no, status=no, resizable=no, height=640, top=20, left=200')" target="ventana">
+Abrir carta...
+</a>

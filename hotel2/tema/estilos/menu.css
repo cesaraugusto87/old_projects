@@ -1,0 +1,43 @@
+#menu
+{
+	height:29px;
+	/*border-bottom:0px solid #000;	*/
+	background: url(../imagenes/bg_menu.png) repeat-x;
+	margin:-10px 9px 15px 9px;
+	color:#FFF;
+	
+}
+
+
+#menu ul
+{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+#menu ul li
+{
+	float:right;
+	margin:0 20px 0 10px;
+	padding:0;
+	border-right: 2px solid #fff;
+}
+
+#menu ul li a
+{
+	display:block;
+	padding:7px 15px;
+	font-size:12px;
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#menu ul li a:hover, #menu ul li a.on
+{
+	background: url(../imagenes/bg_menu_hover.png) repeat-x;
+}
+
+
+

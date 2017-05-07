@@ -1,0 +1,150 @@
+.Estilo1 {
+	FONT-SIZE: 7pt; COLOR: #666666; FONT-FAMILY: arial
+}
+.Estilo2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; FONT-FAMILY: Arial
+}
+.Estilo3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.Estilo4 {
+	FONT-SIZE: 11px;
+	COLOR: #666666;
+	FONT-FAMILY: Tahoma;
+	TEXT-ALIGN: justify;
+	font-style: normal;
+	font-weight: normal;
+}
+.Estilo5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Tahoma
+}
+.Estilo6 {
+	FONT-SIZE: 8pt; COLOR: #666666; FONT-FAMILY: Arial
+}
+.Estilo7 {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 9px; PADDING-BOTTOM: 0px; MARGIN: 1px; BORDER-LEFT: #999999 1px solid; COLOR: #cc0000; PADDING-TOP: 0px; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: Arial; HEIGHT: 15px; TEXT-DECORATION: none
+}
+.Estilo8 {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 9px; PADDING-BOTTOM: 0px; MARGIN: 1px; BORDER-LEFT: #999999 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.Estilo9 {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #003366; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.Estilo10 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.Estilo11 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ff9900; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.Estilo12 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.Estilo13 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #0066cc; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.Estilo14 {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: #003366; FONT-FAMILY: Tahoma
+}
+.Estilo15 {
+	FONT-WEIGHT: bold; FONT-SIZE: 20px; COLOR: #003366; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.Estilo16 {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #ff9900; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.Estilo17 {
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: normal;
+	font-style: normal;
+	font-weight: bold;
+}
+.Estilo18 {
+	font-size: 10px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.Estilo19 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #0066FF;
+}
+.Estilo20 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #52698C;
+}
+.Estilo21 {
+	font-size: 10px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	color: #0065CE;
+	font-weight: normal;
+}
+
+A:active {
+	COLOR: #0066cc; FONT-FAMILY: arial
+}
+A:hover {
+	COLOR: #003366; FONT-FAMILY: arial
+}
+A:link {
+	FONT-SIZE: 8pt; COLOR: #0066cc; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 8pt; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #719eb7
+}
+A:hover {
+	COLOR: #719eb7
+}
+A.clase:hover {
+	COLOR: #ffffff
+}
+A.clase:link {
+	COLOR: #ffffff
+}
+A.clase:visited {
+	COLOR: #ffffff
+}
+.En_construcción {
+	color: #999999;
+	font-size: 36px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.entradas {
+	BORDER-RIGHT: #51688d 1px solid;
+	BORDER-TOP: #51688d 1px solid;
+	BORDER-LEFT: #51688d 1px solid;
+	BORDER-BOTTOM: #51688d 1px solid;
+	FONT-WEIGHT: bold; FONT-SIZE: 12px;
+	COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	VERTICAL-ALIGN: middle
+}
+
+.boton {
+	BORDER-RIGHT: #51688d 1px solid;
+	BORDER-TOP: #51688d 1px solid;
+	BORDER-LEFT: #51688d 1px solid;
+	BORDER-BOTTOM: #51688d 1px solid;
+	FONT-WEIGHT: bold;
+	FONT-SIZE:10px;
+	COLOR: #006699;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	VERTICAL-ALIGN: middle;
+	background-color: #EEEEEE;
+}
+
+BODY {
+	SCROLLBAR-FACE-COLOR: #ffffff; SCROLLBAR-HIGHLIGHT-COLOR: #e4e4e4; SCROLLBAR-SHADOW-COLOR: #e4e4e4; SCROLLBAR-3DLIGHT-COLOR: #a6ac98; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #e4e4e4; SCROLLBAR-DARKSHADOW-COLOR: #a6ac98
+}

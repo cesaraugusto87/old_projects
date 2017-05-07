@@ -1,0 +1,1 @@
+<td> {Nombre} <a href="departamentos.php?editar={IdDepartamento}">Editar</a> <a href="departamentos.php?eliminar={IdDepartamento}">Eliminar</a></td>

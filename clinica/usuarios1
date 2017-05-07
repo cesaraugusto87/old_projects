@@ -1,0 +1,159 @@
+<?php
+include_once(dirname(__FILE__). "/libreria/nucleo/functions/import.php");
+import("libreria.aplicacion.Pagina");
+import("libreria.aplicacion.Credentials");
+import("libreria.aplicacion.UsuarioWeb");
+import("libreria.aplicacion.Usuario");
+import("libreria.aplicacion.Solicitud");
+
+$u = new Credentials();
+$usuario = new Usuario();
+
+
+if (isset($_GET["logout"]))
+{
+	$u->logout();
+}
+
+if (!$u->haveAccess(3))
+{
+header("Location: slogin.php");
+	exit;
+}
+
+
+if ($u->haveAccess(3))
+{
+	$credentials = $u->getCredentials();
+	$web = new UsuarioWeb();
+	if (isset($_GET["IdUsuario"]) and (!isset($_POST["registrar"], $_POST["accion"])))
+	{
+		$response = $usuario->consultar($_GET["IdUsuario"]);
+		if ($response->exito)
+		{
+			$_POST = (array) $response->asunto;
+			$_POST["Password"] = "";
+			$_POST["accion"] = "editar";
+			$_POST["submitPage"] = "usuarios.php?IdUsuario=" . $_POST["IdUsuario"];
+		}
+		else 
+		{
+			$_POST["errores"] = print_r($response->errores, true);
+			$_POST["accion"] = "agregar";
+			$_POST["submitPage"] = "usuarios.php";
+		}
+	}
+	elseif(isset($_POST["IdUsuario"]) and isset($_POST["registrar"]) and $_POST["accion"] == "editar")
+	{
+		$_POST["accion"] = "editar";
+		$_POST["submitPage"] = "usuarios.php?IdUsuario=" . $_POST["IdUsuario"];
+	}
+	else 
+	{
+		$_POST["accion"] = "agregar";
+		$_POST["submitPage"] = "usuarios.php";
+	}
+	
+	
+	if (isset($_POST["registrar"]))
+	{
+		if ($_POST["accion"] == "editar")
+		{
+			$response = $usuario->modificar($_POST);
+		}
+		else 
+		{
+			$response = $usuario->agregar($_POST);
+		}
+		
+		if ($response->exito)
+		{
+			$_POST["mensajes"] =  Pagina::getErrores($response->mensajes);
+		}
+		else 
+		{
+			$_POST["errores"] =  Pagina::getErrores($response->errores);
+		}
+		
+		$formAgregar = $web->getFormAgregar($_POST);
+		$buscar = $_SESSION["BuscarUsuarios"];		
+		$buscar["submitPageBuscar"] = "usuarios.php";
+		$formBuscar = $web->getFormBuscar($buscar);
+		$usuariosEncontrados = $usuario->buscar($buscar,$_GET["pagina"]);
+	}
+	else
+	{
+	$sesionManager = new SessionManager();
+
+			
+			
+				$sesionManager->setVar("usuarios", $_POST);
+				
+			if(!isset($_GET["pagina"]))
+			{
+			$_GET["pagina"] = 1;
+			}
+			
+			if(isset($_GET["pagina"])) 
+			{
+				$_POST = $sesionManager->getVar("usuarios");
+			}
+
+
+
+
+			if ($_GET["pagina"] < 1)
+			{
+				$_GET["pagina"] =1;
+			}
+			
+		if (isset($_POST["buscar"]))
+		{
+			
+			$agregar["submitPage"] = "usuarios.php";
+			$formAgregar = $web->getFormAgregar($agregar);
+			$usuariosEncontrados = $usuario->buscar($_POST,$_GET["pagina"]);
+			$formBuscar = $web->getFormBuscar($_POST);
+			//$usuariosEncontrados = $usuario->buscar($_POST,$_GET["pagina"]);
+			$_SESSION["BuscarUsuarios"] = $_POST;
+		}
+		else
+		{
+			$formAgregar = $web->getFormAgregar($_POST);
+			$buscar = $_SESSION["BuscarUsuarios"];
+			$buscar["submitPageBuscar"] = "usuarios.php";
+			$formBuscar = $web->getFormBuscar($buscar);
+			$usuariosEncontrados = $usuario->buscar($buscar,$_GET["pagina"]);
+		}
+	}
+	
+	
+	$resultados = $web->getResultados($usuariosEncontrados);
+	$page = new Pagina();
+	$Web = new Solicitud();
+	$page->setDir("");
+	$varsMenu["usuarios_on"] = 'class = "on"';
+	$sesion = new Credentials();
+	$datos = $sesion->getCredentials();
+	$varsMenu["num"] = $Web->contarNuevas($datos->IdDepartamento);
+	$page->setMenu( $credentials->IdTipo, $varsMenu);
+	//$page->setMenu($credentials->IdTipo);
+	
+	$script = "<script>tab('formAgregar', 'btnAgregar');</script>";
+	
+	$varsTabs["tabs"] = $page->getSubmenu("submenu_usuarios");
+	$varsTabs["targets"] = $formAgregar . $formBuscar;
+	
+	//$page->setForms( );
+	$tabs = $page->getTabs($varsTabs);
+	$page->setContenido( $tabs . $resultados . $script);
+	$page->render();
+}
+
+else
+{
+	
+	header("Location: login.php");
+	exit;
+}
+?>

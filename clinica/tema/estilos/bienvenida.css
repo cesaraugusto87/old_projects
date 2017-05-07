@@ -1,0 +1,34 @@
+
+#bienv
+{
+   	color:#FFF;
+	height:34px;
+	margin:0;
+	margin-top:-600px;
+	margin-left:300px;
+	 
+}
+
+#bienv ul
+{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+#bienv ul li
+{
+	margin:40px 10px 5px 40px;
+	padding:0;
+	float:left;
+	color:#285228;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:55px;
+}
+
+
+#bienv ul li a:hover
+{
+	color:#F90;
+}

@@ -1,0 +1,55 @@
+#header
+{
+	padding:10px;
+}
+
+h1
+{
+	margin:0;
+	margin-left:10px;
+	padding:0;
+	text-align:center;
+	padding-top:0px; 	
+	padding-left:0px;
+	float:left;
+	background: url(../imagenes/logo_chilemex.png) no-repeat;
+	height:122px;
+}
+
+
+
+h1 a
+{
+	height:122px;
+	width:298px;
+	display:block;
+	float:left;
+	margin:0 auto;
+}
+
+h2
+{
+	margin:0;
+	margin-top:48px;
+	margin-left:45px;
+	color:#000;
+	padding:0;
+	float:left;	
+}
+
+h2 a
+{
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+	font-style:italic;
+	font-size:28px;
+
+
+
+}
+
+h1 a span
+{
+	display:none;
+}

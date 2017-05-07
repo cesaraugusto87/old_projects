@@ -1,0 +1,7 @@
+&noticia1=<font color='#FF0080'>Sale al mercado</font><br><br>Mi Web Multimedia <font color='#FF0080'>.NET</font><br>Los diseños más originales . . .<br>La mayor calidad de imagen . . .<br>La elegancia . . .<br>El estilo . . .
+&noticia2=<font color='#FF0080'>Lo último en especialización web</font><br><br>Con sonido . . <br>Con precarga de imágenes . . .<br>Precarga de secciones . . .<br>Transiciones de páginas . . .<br>Ampliación de imágenes . . . 
+&noticia3=<font color='#FF0080'>Su web multimedia por:</font><br><br>El importe de un DVD<br>Menos que la compra del súper<br>Menos que una tarde en el cine<br>y que cenar en un restaurante. . .
+&noticia4=<font color='#FF0080'>Ahorre dinero y tiempo con:</font><br><br>Mi Web Multimedia <font color='#FF0080'>.NET</font><br>Una web para toda la vida<br>Cuélguela donde mejor le convenga . . .<br>O llévela consigo a todas partes en un CD-ROM
+&noticia5=<font color='#FF0080'>La conclusión</font><br><br>No hay nada más rápido, más económico y de mayor calidad que<br>Mi Web Multimedia <font color='#FF0080'>.NET</font>
+&total=5&estado=listo&
+

@@ -1,0 +1,186 @@
+/* begin Page */
+#Webpage-background-glare, #Webpage-background-glare-image
+{
+  zoom: 1;
+}
+
+img
+{
+  filter: expression(artFixPNG(this));
+}/* end Page */
+
+/* begin Box, Sheet */
+.Websheet-tl
+{
+  clip: rect(auto 18px 18px auto);
+}
+
+.Websheet-tr
+{
+  clip: rect(auto auto 18px 18px);
+}
+
+.Websheet-bl
+{
+  clip: rect(18px 18px auto auto);
+}
+
+.Websheet-br
+{
+  clip: rect(18px auto auto 18px);
+}
+
+.Websheet-tc
+{
+  clip: rect(auto auto 18px auto);
+}
+
+.Websheet-bc
+{
+  clip: rect(18px auto auto auto);
+}
+
+.Websheet-cr
+{
+  clip: rect(auto auto auto 18px);
+}
+
+.Websheet-cl
+{
+  clip: rect(auto 18px auto auto);
+}
+
+.Websheet-body
+{
+  zoom: 1;
+}
+/* end Box, Sheet */
+
+/* begin Menu */
+.Webnav-r
+{
+  clip: rect(auto auto auto 787px);
+}
+
+/* end Menu */
+
+/* begin MenuItem */
+.Webhmenu a .r
+{
+  clip: rect(auto auto auto 404px);
+}
+/* end MenuItem */
+
+/* begin Layout */
+.Webcontent-layout, .Webcontent-layout-row {display: block;}
+.Webcontent-layout, .Webcontent-layout-row {zoom: 1;}
+/* end Layout */
+
+/* begin Box, Block */
+
+.Webblock-body
+{
+  zoom: 1;
+}
+/* end Box, Block */
+
+/* begin Box, BlockContent */
+.Webblockcontent-tl
+{
+  clip: rect(auto 9px 9px auto);
+}
+
+.Webblockcontent-tr
+{
+  clip: rect(auto auto 9px 9px);
+}
+
+.Webblockcontent-bl
+{
+  clip: rect(9px 9px auto auto);
+}
+
+.Webblockcontent-br
+{
+  clip: rect(9px auto auto 9px);
+}
+
+.Webblockcontent-tc
+{
+  clip: rect(auto auto 9px auto);
+}
+
+.Webblockcontent-bc
+{
+  clip: rect(9px auto auto auto);
+}
+
+.Webblockcontent-cr
+{
+  clip: rect(auto auto auto 9px);
+}
+
+.Webblockcontent-cl
+{
+  clip: rect(auto 9px auto auto);
+}
+
+.Webblockcontent-body
+{
+  zoom: 1;
+}
+/* end Box, BlockContent */
+
+/* begin Button */
+.Webbutton-wrapper .Webbutton-r
+{
+  clip: rect(auto auto auto 399px);
+}
+/* end Button */
+
+/* begin Box, Post */
+
+.Webpost-body
+{
+  zoom: 1;
+}
+/* end Box, Post */
+
+/* begin PostContent */
+.Webpostcontent
+{
+  height: 1%;
+}
+/* end PostContent */
+
+/* begin Footer */
+.Webfooter-body
+{
+    padding-right: 0;
+  zoom:1;
+}
+
+.Webfooter{
+  zoom:1;
+}
+
+.Webfooter-r
+{
+  clip: rect(auto auto auto 5px);
+}
+
+/* end Footer */
+
+/* begin LayoutCell, content */
+.Webcontent {width: auto;}
+.Webcontent-layout .Weblayout-cell, .Webcontent-layout .Weblayout-cell .Webcontent-layout .Weblayout-cell
+{
+  display: block;
+  position:relative;
+  float: left;
+  clear: right;
+}
+.Webcontent-layout .Weblayout-cell, .Webcontent-layout .Weblayout-cell .Webcontent-layout .Weblayout-cell {  zoom:1; }
+.Weblayout-cell .Weblayout-cell{ float: none; clear: both;}
+/* end LayoutCell, content */
+

@@ -1,0 +1,69 @@
+
+<form name="form-ini-admin" method="post" action="">
+  <div align="center"> 
+    <p>Busqueda de solicitudes </p>
+    <p>Nro.solicitud: 
+      <input name="IdSolicitud" type="text" id="busquedasol">
+    </p>
+    <p> Estado: 
+      <select name="Estado" onChange="MM_jumpMenu('parent',this,0)">
+        <option selected>Nuevo</option>
+        <option>Atendido</option>
+        <option>No Atendido</option>
+        <option>Rechazado</option>
+        <option>Todos</option>
+      </select>
+    </p>
+    <p> Fecha : Inicio 
+      <input name="Fecha" type="text" id="busquedaf1">
+      Fin 
+      <input name="Fecha" type="text" id="busquedaf2">
+    </p>
+    <p>Asunto : 
+      <input type="text" name="Asunto">
+      Buscar en Contenido
+      <input type="checkbox" name="Contenido" value="">
+    </p>
+    <p> 
+      <input type="submit" name="" value="buscar">
+    </p>
+    <p>Solicitudes </p>
+    </div>
+</form>
+<table width="786" border="0" cellpadding="0" cellspacing="0">
+  <!--DWLayoutTable-->
+  <tr> 
+    <td width="103" height="1"></td>
+    <td width="9"></td>
+    <td width="108"></td>
+    <td width="9"></td>
+    <td width="454"></td>
+    <td width="84"></td>
+    <td width="46"></td>
+  </tr>
+  <tr> 
+    <td height="38" colspan="2" valign="top"><div align="center">Nro. de Solicitud</div></td>
+    <td colspan="2" valign="top"><div align="center">Usuario</div></td>
+    <td valign="top"><div align="center">Asunto </div></td>
+    <td valign="top"><div align="center">Fecha</div></td>
+    <td valign="top"><div align="center">Estado </div></td>
+  </tr>
+  <!-- TemplateBeginRepeat name="region_repetida" --> 
+  <tr> 
+    <td height="19" valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
+    <td colspan="2" valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
+    <td colspan="2" valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
+    <td valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
+    <td valign="top"><!--DWLayoutEmptyCell-->&nbsp;</td>
+  </tr>
+  <!-- TemplateEndRepeat --> 
+  <tr> 
+    <td height="12"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>

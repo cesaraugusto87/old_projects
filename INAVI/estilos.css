@@ -1,0 +1,119 @@
+
+.enlace:hover {text-decoration:none; color:#3333CC;}
+
+.enlace{
+	color:#6699CC;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:center;
+	font-weight: bold;
+}
+
+.Forms{
+	font-family:"Comic Sans MS";/*"Tempus Sans ITC"; /*"Century Gothic"; /*, "Comic Sans MS", "Tempus Sans ITC";*/
+	font-size:12px;
+	color:#333333;
+	font-style:inherit;
+}
+
+.Mensajes {
+	color:#CC0000;
+	font-size: 16px;
+	text-align:center;
+	font-weight: bold;
+	font: Trebuchet MS;
+	
+}
+
+.Textos {
+	font-family :Trebuchet MS;
+	font-weight:bold;
+	font-size :14px;
+	text-align:center;
+	font-variant:small-caps;
+	text-decoration:underline;
+	color:#OOOOOO;
+}
+
+.titulo_tabla {
+	font-size: 14px;
+	font-weight: bold;
+	font: Trebuchet MS;
+	color: #FFFFFF;
+	text-align:center;
+	font-variant:small-caps;
+	background-color:#003366;
+}
+
+.cabecera_c {
+	font-size: 13px;
+	font-weight: bold;
+	font: Trebuchet MS;
+	text-align:center;
+	color: #FFFFFF;
+	font-variant:small-caps;
+	background-color:#F1B587; 
+}
+
+.boton{
+	height:22px;
+	width:70px;
+    vertical-align:middle;
+    font:"Maiandra GD";
+   font-size:10px;
+}
+
+.direccion{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#003366;
+text-align:center;
+font-weight:200;
+}
+
+.cabecera {
+	font-size: 13px;
+	font-weight: bold;
+	font: Trebuchet MS;
+	text-align:right;
+	color: #FFFFFF;
+	font-variant:small-caps;
+	background-color:#F1B587; 
+}
+
+.contenido{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#OOOOOO;
+	text-decoration:bold;
+	text-align:center;
+	background-color:#CCCCCC;
+	hover:expression(this.onmouseover=new Function("this.style.background-color='#b5c6d7';"),this.onmouseout=new Function("this.style.background-color='#E9F7FF';"));
+}
+.contenido:hover{
+	background-color: #b5c6d7;
+
+}
+
+.ingresar_der{
+	background-color: #b5c6d7;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	
+}
+
+.titulos{
+	font-family:"Tempus Sans ITC";
+	font-size:18px;
+	text-decoration:bold;
+	font-weight:bolder;
+	play-during:repeat;
+	color:#FF9933;
+	text-align:center;
+	text-shadow:Navy;
+	
+}
+
+
+
+

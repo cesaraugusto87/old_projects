@@ -1,0 +1,1 @@
+titular=Gestion de Registros<font color='#FF0080'></font> <font color='#005E8A'></font>

@@ -1,0 +1,61 @@
+#header
+{
+	padding:10px;
+}
+
+h1
+{
+	margin:0;
+	margin-left:0px;
+	padding:0;
+	text-align:center;
+	padding-top:0px; 	
+	padding-left:0px;
+	float:center;
+	background: url(../imagenes/logo.png) no-repeat;
+	height:210px;
+}
+
+
+
+h1 a
+{
+	
+	height:200px;
+	width:200px;
+	display:block;
+	float:left;
+	margin:0 auto;
+}
+
+h2
+{
+	margin:0;
+	margin-top:-210px;
+	margin-right:50px;
+	padding:0;
+	text-align:center;
+	padding-top:0px; 	
+	padding-left:0px;
+	float:right;
+	height:50px;
+	
+	
+}
+
+h2 a
+{
+	height:180px;
+	width:490px;
+	display:block;
+	float:center;
+	margin:0 auto;
+}
+
+
+}
+
+h1 a span
+{
+	display:none;
+}

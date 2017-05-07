@@ -1,0 +1,128 @@
+* { margin: 0px; padding: 0px; }
+
+/* HTML styling */
+
+body { background:#F00 url(../imagenes/bg.gif) repeat-y center top; 
+color: #484E53; font: 62.5%/80% Verdana, Arial, Helvetica, sans-serif; text-align: center; }
+
+a { color: #484E53; font-weight: bold; text-decoration: underline; }
+a:hover { color: #3091BB; font-weight: bold; text-decoration: underline; }
+
+.clear { clear: both; display: block; float: left; height: 30px; margin: 0px; padding: 0px; width: 1px; }
+img { border: none; }
+
+a img { border: 2px solid #484E53; }
+a:hover img { border: 2px solid #000000; }
+.floatright { float: right; padding: 10px 0 10px 10px; }
+.fl-nopadding { float: left; }
+.fr-nopadding { float: right; }
+.floatleft { float: left; padding: 10px 10px 10px 0; }
+
+code { background-color: #f9f9f9; border: 1px dashed #ccc; color: #666; display: block; font: 1.1em/1.5em "Courier New", Courier, monospace; padding: 10px; }
+.code { color: #666666;	font-family: "Lucida Sans Console", "Courier New", Courier, monospace; font-weight: bold; }
+abbr { border-bottom: 2px solid #BCD695; cursor: help; font-weight: bold; }
+
+abbr:hover, abbr:focus { border-bottom: 2px solid #222222; }
+
+h2 { width: 100%; background: url(images/left_top.gif) no-repeat; color: #FFFFFF; font: bold 11px/30px Verdana, sans-serif; text-indent: 25px; }
+h3 { width: 440px; background: #FFFFFF url(images/right-top.gif) no-repeat; color: #FFFFFF; font: bold 11px/29px Verdana, sans-serif; text-indent: 25px; display: block; clear: both; }
+h4 { float: left; letter-spacing: -1px; border-right: 2px solid #BCD695; font: lighter 1.8em/49px "Trebuchet MS", "Lucida Sans Unicode", Corbel, sans-serif; display: block; margin-left: 10px; width: 370px; }
+h5 { color: #000000; font: lighter 1.6em/1.6em "Trebuchet MS", "Lucida Sans Unicode", Corbel, sans-serif; }
+ul li { list-style: none; }
+ol li { margin: 0.5em 0; list-style: decimal-leading-zero; }
+dt { color: #1B1B1B; }
+dd { padding-left: 2em; }
+del { color:#FF0000; }
+
+/* The wrapper */
+
+#wrapper { display: block; width: 700px; margin: 0 auto; text-align: left; font-size: 1.1em; position: relative; line-height: 1.5em; padding: 0 40px; }
+
+/* The header */
+
+#header { float: left; height: 100px; margin: 1px; width: 400px; }
+#header h1 { font-size: 1px;  /* Just a hack to make the text small. v1 */ }
+#header h1 a { background: url(images/header.gif) no-repeat	left top; display: block; font: 25%/100px Verdana; color: #FFFFFF; }
+
+/* The language bar */
+
+#lang { margin-right: 4em; height: 45px; margin-top: 1em; float: right; width: 153px; }
+#lang ul { float: right; margin-top: 1em; }
+#lang li { display: block; float: left; margin-right: 1em; width: 3em; list-style: none; }
+#lang a { text-indent: -900em; text-decoration: none; display: block; width: 30px; }
+#lang #en a { background: #FFFFFF url(images/uk-flag.gif) no-repeat center center; width: 30px; line-height: 30px; }
+#lang #de a { background: #FFFFFF url(images/de-flag.gif) no-repeat center center; width: 30px; line-height: 30px; }
+#lang #fr a { background: #FFFFFF url(images/fr-flag.gif) no-repeat center center; width: 30px; line-height: 30px; }
+#lang a.no-indent { clear: both; text-align: center; width: 150px; margin-top: 0.5em; text-indent: 0em; }
+
+/* The navigation bar */
+
+#nav { background-color: #484E53; background: url(images/menu_bg.gif) repeat-x left top; float: left; height: 40px; width: 700px; margin-bottom: 4em; }
+#nav ul { margin: 0px; padding: 0px; }
+#nav li { background: url(images/menu_line.gif) no-repeat left center; color: #FFFFFF; display: block; float: left; line-height: 40px; list-style: none; margin: 0; padding: 0; }
+#nav #first { background: url(images/menu_left.gif) no-repeat left center; display: block; float: left; height: 40px; padding-left: 10px; width: 1px; }
+#nav #last { background: url(images/menu_right.gif) no-repeat right top; float: right; margin: 0px;  width: 10px; padding: 0px; }
+#nav a { color: #FFFFFF; display: block; margin: 0 4px; padding: 0 4px; text-decoration: none; }
+#nav a:hover { color:#B4D7F1; }
+#nav a.current, #nav a.current:hover { color: #6CB3E5; }
+#nav #form1 { display: inline; float: left; height: 20px; margin: 0; padding: 0; width: 100px; }
+
+/* The search bar */
+
+#form1 { position: relative; top: 9px; left: 5em; }
+#form1 input.search { top: 0.4em; float: left; position: absolute; padding: 0.3em 0 0.3em 0.2em; width: 15em; margin-right: 15.5em; border: none; color: #484E53; font-family: Verdana; left: 1px; }
+#form1 input.search:hover { border: none; color: #3091BB; cursor: default; font-family: Verdana; }
+#form1 input.btn { position: absolute; left: 12em; }
+#form1 label { border: none; color: #484E53; font-family: Verdana; }
+#form1 iabel:hover { border: none; color: #3091BB; font-family: Verdana; }
+
+/* The sidebar menu */
+
+#menu { float: left; width: 206px; height: 31.5em; }
+#menu ul { display: block; float: left; margin: 0 0 0 -2px; padding: 0 0 0 5px; width: 199px; }
+#menu li { border-bottom: 1px dotted #484E53; display: block; list-style: none; }
+#menu a { background: #FFFFFF url(images/arrow1.gif) no-repeat left center; display: block; font-weight: lighter; padding: 0.2em 1em; text-decoration: none; display: block; width: 184px; }
+#menu a:hover, #menu a.current { background: url(images/arrow2.gif) no-repeat left center; color: #3091BB; }
+
+/* The right content */
+
+#content { float: right; height: inherit; width: 440px; margin-right: 1em; }
+#content p, #content ul, #content ol, #content h5, content h6, #content code, #content dl { border-right: 2px solid #BCD695; border-left: 2px solid #BCD695; clear: both; display: block; padding: 0.3em 2%; }
+#content .post { width: 440px; margin-bottom: 1em; border-bottom: 2px solid #BCD695; }
+
+/* The date icon button (v0.9) */
+
+.post-date { width: 45px; border-left: 2px solid #BCD695; height: 49px; padding-left: 1em; float:left; background: url(images/date.gif) no-repeat 1em top; }
+.post-month { font-size: 11px; text-transform: uppercase; color: #FFFFFF; text-align: center; display: block; line-height: 11px; padding-top: 2px; margin-left: -3px; }
+.post-day { font-size: 18px; text-transform: uppercase; color: #999999; text-align: center; display:block; line-height: 18px; padding-top: 7px; margin-left: -3px; }
+
+/* The download button hack (v1.1) */
+
+.download { display: block;  border-bottom: 1px dashed #999999; height: 7em; }
+.download a, .download a.view { /* Just for Opera */ text-decoration: none; position: relative; }
+.download a span { float: left; margin: 0 2em 0 0; text-indent: -900em; /* Resizes with browser */ background: #FFFFFF url(images/download.gif) no-repeat left top; display: block; width: 95px; height: 70px; }
+.download a:hover span { background: #FFFFFF url(images/download-hover.gif) no-repeat left top; }
+.download a.view span { text-indent: -900em; /* Resizes with browser */ background: #FFFFFF url(images/view.gif) no-repeat left top; display: block; width: 95px; height: 70px; }
+.download a.view:hover span { background: #FFFFFF url(images/view-hover.gif) no-repeat left top; }
+.download-bottom-fix { height: 1em; }
+
+/* The latest box (RS) */
+
+#latest { background: url(images/headline.gif) no-repeat left top; clear: both; float: left; height: 18em; width: 433px; }
+#latest p { color: #FFFFFF; display: block; font-size: 11px; font-weight: bold; height: 7em; margin-left: 125px; margin-top: 60px; width: 27em; border: none; }
+
+/* The footer */
+
+#footer { font-size: 125%; width: 700px; margin: 0 auto; text-align: center; color: #525252; background: #FFFFFF url(images/footer.gif) no-repeat left top; clear: both; margin-top: 5em; padding: 5em 0; }
+#footer p { clear: both; margin-top: 10px; }
+#footer a { color: #525252; text-decoration: none; padding: 2px; }
+#footer a:hover { background: #525252; color: #FFFFFF; }
+
+/* Personalised stuff */
+
+.template-count { font: bold 150%/75% "Trebuchet MS", "Lucida Sans Unicode", Corbel, sans-serif; color:#000000; }
+.options { display: block; height: 2em; }
+.cost { background: #FFFFFF url(images/cost.gif) no-repeat left center; float: left; padding: 2px 1.7em; display: block; }
+.time { background: #FFFFFF url(images/time.gif) no-repeat left center; float: left; padding: 2px 1.7em; display: block; }
+.print { background: #FFFFFF url(images/print.gif) no-repeat left center; float: left; padding: 2px 1.7em; display: block; }
+.comments { background: #FFFFFF url(images/comments.gif) no-repeat 0.75em 0.6em; text-indent: 1.5em; }

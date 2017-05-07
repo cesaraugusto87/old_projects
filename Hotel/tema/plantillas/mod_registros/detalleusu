@@ -1,0 +1,12 @@
+<div>
+	<p><div align="right"<b>Registro Nro.</b> {IdReporte}</p> 
+	
+	<fieldset>
+	<blockquote>
+	<div align="justify">{Diagnostico}</div>
+	<br />
+	</blockquote>
+		</fieldset>
+	
+	
+</div>

@@ -1,0 +1,57 @@
+<form method="post" name="form1" action="<?php echo $editFormAction; ?>">
+        <table align="center">
+          <!--DWLayoutTable-->
+          <tr valign="baseline"> 
+            <td width="100" height="21" align="right" valign="top" nowrap>Nro. 
+              Solicitud:</td>
+            <td width="166">&nbsp;</td>
+          </tr>
+          <tr valign="baseline"> 
+            <td height="21" align="right" valign="top" nowrap>Usuario</td>
+            <td>&nbsp;</td>
+          </tr>
+        </table>
+       
+      </form>
+	  </td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr> 
+    <td height="78"></td>
+    <td></td>
+    <td colspan="3" rowspan="2" valign="top"><form method="post" name="form2" action="<?php echo $editFormAction; ?>">
+      </form>
+      <form method="post" name="form3" action="<?php echo $editFormAction; ?>">
+        <table align="center">
+          <!--DWLayoutTable-->
+          <tr valign="baseline"> 
+            
+          <td width="91" align="right" nowrap>Asunto:</td>
+            <td width="337"> <input name="CampoFecha" type="text" id="campoFecha" value="  " size="32"> 
+            </td>
+          </tr>
+          <tr valign="baseline"> 
+            <td>&nbsp;</td>
+            <td>&nbsp;</tr>
+          <tr valign="baseline"> 
+            
+          <td nowrap align="right" valign="top">Contenido:</td>
+            <td> <textarea name="Observaciones" cols="50" rows="10"></textarea> 
+            </td>
+          </tr>
+          <tr valign="baseline"> 
+            <td height="49" align="right" nowrap>&nbsp;</td>
+            <td valign="top"><div align="center"> 
+                <p>&nbsp;</p>
+                <p> 
+                  <input name="submit" type="submit" value="Insertar registro">
+                </p>
+              </div></td>
+          </tr>
+        </table>
+        <input type="hidden" name="Status" value="">
+        <input type="hidden" name="MM_insert" value="form3">
+      </form>

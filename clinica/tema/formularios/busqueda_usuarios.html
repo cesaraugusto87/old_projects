@@ -1,0 +1,22 @@
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
+<form name="form1" method="post" action="">
+  <div align="center"> 
+    <p>Ingrese Nombre de Usuario 
+      <input name="busqueda" type="text" id="busqueda">
+      <input type="submit" name="Submit" value="buscar">
+    </p>
+    <p> Seleccione Departamento
+      <select name="departamentos" id="departamentos" onChange="MM_jumpMenu('parent',this,0)">
+        <option selected>unnamed1</option>
+      </select>
+    </p>
+    <p>&nbsp;</p>
+  </div>
+</form>

@@ -1,0 +1,1 @@
+<a onclick="tab('formSearch', this.id);" id="btnBuscar">B&uacute;squedas</a>

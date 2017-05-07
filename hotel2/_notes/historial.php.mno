@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<info>
+	<infoitem key="UD_pacientes" value="name:Cedula;datatype:int,name:Nombre;datatype:string,name:Apellido;datatype:string,name:Sexo;datatype:string,name:FechaNac;datatype:date" />
+</info>

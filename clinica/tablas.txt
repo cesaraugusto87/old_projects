@@ -1,0 +1,36 @@
+Solicitud
+- IdSolicitud
+- IdUsuario (Creador/Autor)
+- Asunto
+- Contenido
+- Fecha
+- Estado (Nuevo, Revisado, Atendido, Rechazado)
+- IdDepartamento
+
+
+
+Seguimiento
+- IdSeguimiento
+- IdSolicitud
+- IdUsuario
+- Contenido
+- Fecha
+- Estado (Revisado, Atendido, Rechazado) 
+
+
+Usuario
+- IdUsuario
+- IdDepartamento
+- IdTipo
+- Nombre
+- Login
+- Password
+- Email
+
+TipoUsuario
+- IdTipo
+- Tipo
+
+Departamento
+- IdDepartamento
+- Nombre

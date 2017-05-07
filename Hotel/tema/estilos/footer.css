@@ -1,0 +1,32 @@
+#footer
+{
+	padding:0px 10px;
+	width:758px;
+	margin-top:30px;
+	margin-bottom:2px;
+	border:1px solid #000;
+	background-color:#EE8A2A;		
+}
+
+#footer ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#footer ul li
+{
+	float:left;
+	margin:0 15px;
+}
+
+#footer ul li a
+{
+	display:block;
+	color:#FFF;
+	font-size:10px;
+	padding:3px 0;
+	font-weight:bold;
+	text-decoration:none;
+}

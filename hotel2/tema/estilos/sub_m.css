@@ -1,0 +1,38 @@
+#sub_menu
+{
+	 background: url(../imagenes/sub_menu.png) no-repeat;
+	 height:35px;
+	 margin:0;
+	 margin-top:33px;
+	 
+}
+
+#sub_menu ul
+{
+	margin:20px 0px 0px 0px ;
+	padding:0;
+	padding-top:35px;
+	list-style-type:none;
+}
+
+
+#sub_menu ul li
+{
+	margin:5px 10px 2px 40px;
+	padding:0;
+}
+
+#sub_menu ul li a
+{
+	margin:0px 2px 0px 0px;
+	color:#285228;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:14px;
+}
+
+
+#sub_menu ul li a:hover
+{
+	color:#F90;
+}

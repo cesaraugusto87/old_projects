@@ -1,0 +1,19 @@
+<div>
+	<p><div align="right"<b>Solicitud Nro.</b> {IdSolicitud}</p> 
+	<p><div align="left"<h3>{Asunto}</h3></p>
+	<p><div align="left"<b>Usuario:</b> {NombreUsuario} </p>
+	<br />
+	<p><div align="left"<b>Fecha:</b> {Fecha}</p>
+	<br />
+	<blockquote>
+	<div align="justify">{Contenido}</div>
+	<br />
+	</blockquote>
+	<fieldset>
+		<legend>Atendido</legend>
+		{atendido}
+	<fieldset>
+	
+	
+	
+</div>
